@@ -1,0 +1,82 @@
+[
+  {
+    "id"  : 1,
+    "name": "東京ガス",
+    "plan" : "東京地区　一般契約料金",
+    "using": [
+      {"low": 0, "high": 20, "base": 759.00, "charge": 145.31},
+      {"low": 20, "high":80, "base": 1056.00, "charge": 130.46}
+    ],
+    "url" : "https://e-com.tokyo-gas.co.jp/ryokin/Default.aspx?tik=1"
+  },
+  {
+    "id" : 2,
+    "name" : "Looopガス(Looopでんき加入者のみ)",
+    "plan" : "関東エリア",
+    "using" : [
+      {"low" : 0, "high" : 80,"base":1000, "charge" : 128}
+    ],
+    "url" : "https://looop-denki.com/low-v/plus-gas/"
+  },
+  {
+    "id" : 3,
+    "name" : "Energy Direct",
+    "plan" : "ベーシックガス",
+    "using" : [
+      {"low": 0, "high": 20, "base":753.46, "charge":140.76},
+      {"low": 20, "high": 80, "base":1022.38,"charge":1126.42}
+    ],
+    "url": "https://www.cdedirect.co.jp/personal/plan/basic_gas.html"
+  },
+  {
+    "id" : 4,
+    "name" : "エルピオガス",
+    "plan" : "スタンダードプラン",
+    "using" : [
+      {"low": 0, "high": 20, "base":975.00, "charge":125.11},
+      {"low": 20, "high": 80, "base":1015.00,"charge":124.00}
+    ],
+    "url":"https://lpio.jp/city_gas/plan/"
+  },
+  {
+    "id" : 5,
+    "name" : "レモンガス",
+    "plan" : "わくわくプラン",
+    "using" : [
+      {"low": 0, "high": 20, "base":759.00, "charge":138.04},
+      {"low": 20, "high": 80, "base":1041.13,"charge":123.94}
+    ],
+    "url":"http://www.lemongas.co.jp/citygas/price/cg_price.pdf"
+  },
+  {
+    "id" : 6,
+    "name" : "ニチガス",
+    "plan" : "わくわくプラン",
+    "using" : [
+      {"low": 0, "high": 5, "base":1485.00, "charge":0},
+      {"low": 5, "high": 20, "base":795.30,"charge":138.05	},
+      {"low": 20, "high": 80, "base":1077.57,"charge":123.93}
+    ],
+    "url":"https://www.nichigas.co.jp/freedom/assets/pdf/tokyogas/202105.pdf"
+  },
+  {
+    "id" : 7,
+    "name" : "ENEOS都市ガス",
+    "plan" : "標準プラン",
+    "using" : [
+      {"low": 0, "high": 20, "base":728.64, "charge":139.49},
+      {"low": 20, "high": 80, "base":1013.76,"charge":125.23	}
+    ],
+    "url":"https://www.eneos.co.jp/gas/charge/"
+  },
+  {
+    "id" : 8,
+    "name" : "楽天ガス",
+    "plan" : "標準プラン",
+    "using" : [
+      {"low": 0, "high": 20, "base":759.00, "charge":145.31},
+      {"low": 20, "high": 80, "base":1056.00	,"charge":130.46	}
+    ],
+    "url":"https://www.eneos.co.jp/gas/charge/"
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id"  : 1,
+    "name": "あしたでんき",
+    "plan" : "標準プラン",
+    "using": [
+      {"low": 0, "high": 10000, "base":0, "charge": 26}
+    ],
+    "url" : "https://ashita-denki.jp/plan/"
+  },
+  {
+    "id" : 2,
+    "name" : "ニチデン",
+    "plan" : "ニチデン東京シンプルプランB",
+    "using" : [
+      {"low" : 0, "high" : 1000,  "base" : 832.26,"charge" : 24.44}
+    ],
+    "url" : "http://nichiden-h.com/pdf/price.pdf"
+  },
+  {
+    "id" : 3,
+    "name" : "エルピオでんき",
+    "plan" : "スタンダードライト", 
+    "using" : [
+      {"low": 0, "high": 120, "base" : 858, "charge":21.14},
+      {"low": 120, "high": 300, "base" : 858, "charge":23.03},
+      {"low": 300, "high": 1000, "base" : 858, "charge":25.78}
+    ],
+    "url": "https://lpio.jp/electrical/ele_tokyo/light/"
+  },
+  {
+    "id" : 4,
+    "name" : "楽天でんき",
+    "plan" : "プランS 東京エリア",
+    "using" : [
+      {"low": 0, "high": 1000, "base" : 0, "charge":26.5}
+    ],
+    "url":"https://energy.rakuten.co.jp/electricity/fee/"
+  },
+  {
+    "id" : 5,
+    "name" : "auでんき",
+    "plan" : "でんきMプラン 東京",
+    "using" : [
+      {"low": 0, "high": 120, "base" : 858, "charge":19.87},
+      {"low": 120, "high": 300, "base" : 858, "charge":26.47},
+      {"low": 300, "high": 1000, "base" : 858, "charge":30.56}
+    ],
+    "url" : "https://www.au.com/electricity/charge/?aa_bid=we-we-gn-2412"
+  },
+  {
+    "id" : 6,
+    "name" : "Looopでんき",
+    "plan" : "おうちプラン 東京電力",
+    "using" : [
+      {"low": 0, "high": 1000, "base" : 0, "charge":26.4}
+    ],
+    "url" : "https://looop-denki.com/low-v/plan/ouchi/"
+  },
+  {
+    "id": 7,
+    "name":"Energy Direct",
+    "plan": "シングルでんき 30A",
+    "using" : [
+      {"low": 0, "high": 120, "base" : 858, "charge":19.88},
+      {"low": 120, "high": 300, "base" : 858, "charge":26.48},
+      {"low": 300, "high": 1000, "base" : 858, "charge":30.57}
+    ],
+    "url": "https://www.cdedirect.co.jp/personal/plan/single_denki.html?utm_source=mugmof&utm_medium=AF&utm_campaign=AF&utm_content=all&argument=V9nKlR8q&dmai=a601cd99d41cc7&a8=ZWCanWszH9kjdA.38Lk-rR8-TRRVkAkOGL8Wk.bOGq54b9ClkWr4dtNUDtNU0qwzH9CW_oCz8o6jdvR-I-6kQq5v4pCbQWCaDs00000020805001&_ga=2.10024828.833036256.1619438294-936829528.1619438294"
+  }
+]
