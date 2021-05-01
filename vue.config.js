@@ -1,7 +1,4 @@
 module.exports = {
-  publicPath: "./",
-  assetsDir: "",
-  filenameHashing: false,
-  productionSourceMap: false,
+  publicPath: "/ele_and_gas_comparison",
   outputDir: "docs"
 }
