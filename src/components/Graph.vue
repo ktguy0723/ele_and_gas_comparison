@@ -25,8 +25,11 @@ export default {
       // graph data
       // apexgraph data
       options: {
+        legend:{
+          show: false
+        },
         chart: {
-          id: 'vuechart-example',
+          id: 'vuechart-example'
         },
         // 軸
         xaxis: {

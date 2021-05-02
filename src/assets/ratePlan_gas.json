@@ -24,7 +24,7 @@
     "plan" : "ベーシックガス",
     "using" : [
       {"low": 0, "high": 20, "base":753.46, "charge":140.76},
-      {"low": 20, "high": 80, "base":1022.38,"charge":1126.42}
+      {"low": 20, "high": 80, "base":1022.38,"charge":126.42}
     ],
     "url": "https://www.cdedirect.co.jp/personal/plan/basic_gas.html"
   },
