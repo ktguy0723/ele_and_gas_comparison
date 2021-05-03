@@ -12,7 +12,7 @@
   </div>
   <div class="border">
     <List :range="range" type="electricity">
-      {{range.median}} kWh/月
+      kWh/月
     </List>
     <Graph :range="range" x-title="電気使用量/kWh" type="electricity"></Graph>
   </div>

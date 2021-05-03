@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h5 class="mt-5">👑 最安値ランキング (<slot></slot>) 👑</h5>
+    <h5 class="mt-5">👑 最安値ランキング ({{median}}<slot></slot>) 👑</h5>
     <ul class="list-group list-group-flush mx-5">
       <li v-for="rank in rankingList" :key="rank.no" class="list-group-item">
         <span class="badge badge-pill">{{rank.medal}}</span>
@@ -24,6 +24,8 @@ export default {
       // jsonの定義
       electricityJson: electricityJson,
       gasJson: gasJson,
+      // 月の使用量
+      median: 0,
       // ランキングデータの定義
       rankingList:[
         {
@@ -69,11 +71,13 @@ export default {
           jsonData = this.electricityJson
           median = median > 1000 ? 1000 : median;
           median = median < 0 ? 0 : median; 
+          this.median = median;
         }
         else if(this.type === 'gas'){
           jsonData = this.gasJson;
           median = median > 80 ? 80 : median;
           median = median < 0 ? 0 : median;
+          this.median = median;
         }
 
         // jsonデータを全探索

@@ -13,7 +13,7 @@
    
     <div class="border">
       <List :range="range" type="gas">
-        {{range.median}} ｍ³ / 月
+        ｍ³ / 月
       </List>
       <Graph :range="range" x-title="ガス使用量 / ｍ³" type="gas"></Graph>
     </div>
